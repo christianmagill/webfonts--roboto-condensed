@@ -39,11 +39,11 @@ $webfonts-roboto-condensed-include: (
 
           @font-face {
             font-family: $font-family;
-            src: url('#{$roboto-font-path}#{$base-name}.eot');
-            src: url('#{$roboto-font-path}#{$base-name}.eot?#iefix') format('embedded-opentype'),
-            url('#{$roboto-font-path}#{$base-name}.woff2') format('woff2'),
-            url('#{$roboto-font-path}#{$base-name}.woff') format('woff'),
-            url('#{$roboto-font-path}#{$base-name}.ttf') format('truetype');
+            src: url('#{$roboto-condensed-font-path}#{$base-name}.eot');
+            src: url('#{$$roboto-condensed-font-path}#{$base-name}.eot?#iefix') format('embedded-opentype'),
+            url('#{$roboto-condensed-font-path}#{$base-name}.woff2') format('woff2'),
+            url('#{$roboto-condensed-font-path}#{$base-name}.woff') format('woff'),
+            url('#{$roboto-condensed-font-path}#{$base-name}.ttf') format('truetype');
             font-weight: $weight;
             font-style: $style;
           }
