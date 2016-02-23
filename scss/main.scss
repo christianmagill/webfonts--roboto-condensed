@@ -1,5 +1,5 @@
 $font-path: "../fonts/" !default;
-$roboto-condensed-font-path : $font-path !default;
+$roboto-condensed-font-path: $font-path !default;
 
 $webfonts-roboto-condensed-settings: (
         font-family: 'Roboto Condensed',
@@ -13,16 +13,16 @@ $webfonts-roboto-condensed-settings: (
                         italic: robotocondensed-italic-webfont
                 ),
                 700: (
-                        normal: robotocondensed-bold-webfont-webfont,
+                        normal: robotocondensed-bold-webfont,
                         italic: robotocondensed-bolditalic-webfont
-                ),
+                )
         )
 ) !default;
 
 $webfonts-roboto-condensed-include: (
         300: (normal, italic),
         400: (normal, italic),
-        700: (normal, italic),
+        700: (normal, italic)
 ) !default;
 
 @mixin generate-webfonts-roboto-condensed {
